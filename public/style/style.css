@@ -1,0 +1,130 @@
+body {
+    font-family: "Pretendard", serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+}
+h1, h2, h3, input {
+    font-family: "Pretendard", serif;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.body2 {
+    font-family: "Pretendard", serif;
+    font-size: 14px;
+    display: flex;    
+}
+div {
+    margin:10px 0;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color:#575757;
+    font-size: 14px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(0, 151, 201);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {    
+    box-shadow: 0 1px 5px rgb(133, 133, 133);
+}
+input::placeholder {
+    color: #999;
+    font-family: "Pretendard", serif;
+    font-size: 16px;
+}
+a {
+    color: blue;
+    text-decoration: underline;
+}
+input[type="button"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;    
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;    
+}
+#signUp, #searchId, #searchPwd {
+    background-color: #575757;
+}
+#line1 {
+    border: 0.2px solid gray;
+    width: 400px;
+    margin: 20px auto;
+}
+#header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#headtitle {
+    float:left;    
+    margin-left: 80px;
+}
+#header li {
+    float: right;
+    list-style: none;
+    margin-right: 20px;    
+}
+#header li a {
+    color:white;
+}
+#footer {
+    width: 100%;
+    background-color: #333;
+    color:white;
+    text-align: left;
+    font-size: 14px;
+    margin: 80px;
+    padding : 40px 0;    
+}
+#footer h2{
+    margin-left:80px;
+}
+#footer .body2{
+    margin-left:80px;
+}
