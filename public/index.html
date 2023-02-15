@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header">
+        <h1 id="headtitle">스파이더플랫폼</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Contact</a></li>                
+                <li><a href="#">About</a></li>
+                <li><a href="#">HOME</a></li>                
+            </ul>
+        </nav>
+    </div>
+    <!--// Header -->
+
+    <!-- Body -->
+    <div>
+      <h2>로그인</h2>
+    </div>
+    <div>
+        <form>
+            <div>
+                <label for="id">아이디</label>
+                <input type="text" id="id" name="id" placeholder="아이디를 입력하세요.">
+            </div>
+            <div>
+                <label for="password">비밀번호</label>
+                <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요."><br><br>
+            </div>
+            <div>
+                <input type="submit" value="로그인" onclick="getLoginData()"/>
+            </div>
+        </form> 
+    </div>
+    <hr id="line1">
+    <div>
+        <input type="button" id="signUp" value="가입하기" onclick="signUp()"/>
+        <input type="button" id="searchId" value="아이디찾기" />
+        <input type="button" id="searchPwd" value="비밀번호찾기" />
+    </div>    
+
+    <!-- footer -->
+    <div id="footer">
+        <h2>(주)스파이더플랫폼</h2>
+        <p class="body2">서울시 성동구 성수이로7길 7, 307호(성수동2가, 한라시그마밸르2차) |
+            통신판매업신고 제2022-서울송파-2579호 |
+            국민은행 205701-04-361093 (주)스파이더플랫폼 |
+            개인정보관리책임자 : 박영환
+        </p>
+
+    </div>
+    <!--// footer -->
+
+    <script src="js/logIn.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    
+    
+  </body>
+</html>
