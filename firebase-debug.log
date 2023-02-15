@@ -94,3 +94,39 @@ You're about to initialize a Firebase project in this directory:
 [info] 
 [info] +  Success! Logged into GitHub as masunbin8 
 [info] 
+[debug] [2023-02-15T03:51:18.065Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T03:51:18.469Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T03:51:18.470Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:03.744Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:04.028Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:04.102Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:04.102Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:04.206Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:04.330Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:04.330Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-15T04:08:04.370Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:04.503Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:04.503Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:04.508Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:04.650Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:04.650Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-15T04:08:04.657Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:04.805Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:04.805Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:04.951Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:04.952Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-02-15T04:08:05.341Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:05.647Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:05.647Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:05.877Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:06.161Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:06.162Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:06.821Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:07.113Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:07.113Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:07.759Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:08.061Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:08.062Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-02-15T04:08:08.560Z] >>> [apiv2][query] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key type=owner
+[debug] [2023-02-15T04:08:08.855Z] <<< [apiv2][status] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key 404
+[debug] [2023-02-15T04:08:08.855Z] <<< [apiv2][body] GET https://api.github.com/repos/masunbin8/anotherproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
