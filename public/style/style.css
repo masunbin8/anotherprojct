@@ -1,6 +1,6 @@
 body {
     font-family: "Pretendard", serif;
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,20 +10,20 @@ h1, h2, h3, input {
     font-family: "Pretendard", serif;
 }
 h1 {
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 .body2 {
     font-family: "Pretendard", serif;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;    
 }
 div {
