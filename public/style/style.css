@@ -137,22 +137,17 @@ dialog {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     height: 200px;
     width: 400px;
-    z-index: 9999;
-  }
+    z-index: 9998;
+}
 
   /* Style the dialog box content */
-  dialog p {
-    font-size: 18px;
-    margin: 20px;    
-  }
-
-  dialog button {
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 20px;
-    padding: 10px 20px;
-  }
+dialog p {
+font-size: 18px;
+margin: 20px;    
+}
+dialog .button-close {
+    color: white;
+    background-color: #414141;    
+    float: right;
+    z-index: 9999;    
+}
