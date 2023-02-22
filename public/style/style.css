@@ -129,3 +129,25 @@ input[type="button"] {
 #footer .body2{
     margin-left:80px;
 }
+/** DIALOG **/
+dialog {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 400px;
+    z-index: 9998;
+}
+
+  /* Style the dialog box content */
+dialog p {
+font-size: 18px;
+margin: 20px;    
+}
+dialog .button-close {
+    color: white;
+    background-color: #414141;    
+    float: right;
+    z-index: 9999;    
+}

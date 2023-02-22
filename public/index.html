@@ -36,7 +36,7 @@
                 <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요."><br><br>
             </div>
             <div>
-                <input type="submit" value="로그인" onclick="getLoginData()"/>
+                <input type="button" value="로그인" onclick="logIn()"/>
             </div>
         </form> 
     </div>
@@ -46,6 +46,13 @@
         <input type="button" id="searchId" value="아이디찾기" />
         <input type="button" id="searchPwd" value="비밀번호찾기" />
     </div>    
+
+    <button id="open-dialog">Open Dialog</button>
+
+    <dialog id="my-dialog">
+    <p>아이디 또는 비밀번호를 확인해 주세요.</p>
+    <input type="button" class="button-close" value="닫기" onclick="closeDialog()"/>
+    </dialog>
 
     <!-- footer -->
     <div id="footer">
@@ -68,6 +75,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
 
     <script>
+        //firebase 초기화
         const firebaseConfig = {
             apiKey: "AIzaSyAAtAAuZ0KduRXR4BUY46RFaQtxTvQIcTA",
             authDomain: "anotherproject-6a908.firebaseapp.com",
@@ -75,7 +83,12 @@
             storageBucket: "anotherproject-6a908.appspot.com",
             messagingSenderId: "47439755110",
             appId: "1:47439755110:web:0e61cc670f73ae36efbaa7"
-        };        
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
     </script>
     
     
